@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio das Imagens</title>
+</head>
+<body>
+    <h1>Desafio de inserir imagens</h1>
+    <h2>inserindo imagem na tela</h2>
+    <p>Inserindo imagem no HTML, o que fiz foi o seguinte, peguei algumas imagens em formato PNG, salvei as mesmas dentro da pasta do projeto (d002), então, coloquei a seguinte tag:
+    <pre>
+        <code>
+            &ltimg src="<mark>aqui vai o link/caminho da imagem</mark>" alt=""/&gt
+        </code>
+    </pre>
+    Dessa maneira consegui inserir as imagens
+    </p>
+    <h2>inserindo informação ao passar o mouse</h2>
+    <p>Passando o mouse sobre a imagem, irá aparecer uma informação, nesse caso para que a informação desejada apareça ao passar o mouse, utilizei o parametro "title" dentro da tag "img", ficando da seguinte forma: 
+        <pre>
+            <code>&ltimg src="" alt="" title="<mark>aqui vai a informação</mark>"/&gt
+            </code>
+        </pre>
+    No caso, eu informei qual é o tamanho de cada imagem
+    </p>
+    <h2>inserindo o favicon na pagina
+    </h2>
+    <p>
+        Para inserir o favicon, utilizei a mesma imagem, porem no formato .ICO, coloquei a mesma dentro da pasta do projeto (d002), e depois dentro da tag HEAD, utilizei a tag LINK responsavel por inserir o favicon, ficou conforme abaixo:
+        <pre>
+            <code>
+                &lthead&gt
+                    &ltlink rel="shortcut icon" href="<mark>favicon.ico</mark>" type="image/x-icon"&gt
+                &lt/head&gt
+            </code>
+        </pre> 
+    </p>
+    <img src="favicon-16x16.png" alt="" title="imagem 16x16"> 
+    <img src="favicon-32x32.png" alt="" title="imagem 32x32">
+    <img src="android-chrome-192x192.png" alt="" title="imagem 192x192">
+    <img src="android-chrome-512x512.png" alt="" title="imagem 512x512">
+    <img src="apple-touch-icon.png" alt="macaco" title="icon-png-apple">
+</body>
+</html>
