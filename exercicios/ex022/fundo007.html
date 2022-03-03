@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+       /* #container {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            background-color: yellow;
+            width: 400px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }*/
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            height: 100vh;
+            background-image: url(imagens/target001.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        #teste {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        #teste2{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        #teste3{
+            z-index: 1;
+            width: 50px;
+            height: 50px;
+            background-color: orange;
+            
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+        }
+        #teste4{
+            z-index: 2;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+
+            position: absolute;
+
+            left: 40%;
+            top: 40%;
+        }
+        #teste5{
+            z-index: 3;
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+
+            position: absolute;
+
+            left: 30%;
+            top: 30%;
+        }
+        #teste6{
+            z-index: 4;
+            width: 50px;
+            height: 50px;
+            background-color: yellow;
+
+            position: absolute;
+
+            left: 20%;
+            top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="teste">
+        <div id="teste2">
+            <div id="teste5"></div>
+            <div id="teste3"></div>
+            <div id="teste6"></div>
+            <div id="teste4"></div>
+        </div>
+    </div>
+    <!--<section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>-->
+</body>
+</html>
