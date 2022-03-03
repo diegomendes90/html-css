@@ -31,7 +31,7 @@ a.externo::after {
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
-    min-width: 439px; /*Não estava no curso*/
+    min-width: 441px; /*Não estava no curso*/
     text-align: center;
     padding-top: 40px;
     padding-bottom: 10px;
@@ -43,8 +43,8 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 header > p {
     font-family: var(--fonte-padrao);
@@ -61,7 +61,7 @@ nav {
     padding: 10px;
     /*font-size: .8em; /*Não estava no curso*/
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-    min-width: 419px; /*Não estava no curso*/
+    min-width: 421px; /*Não estava no curso*/
 }
 nav a {
     color: white;
@@ -87,11 +87,13 @@ nav a:hover {
 
     #####################################################    */
 div {
-    margin: auto;
-    max-width: 800px;
-    min-width: 300px;
+    margin: auto;  
+    background-color: transparent;
+    max-width: 1100px;
+    min-width: 399px;
     padding-left: 20px;
-    padding-right: 20px;}
+    padding-right: 20px;
+}
 /*  #####################################################
     
     Essa DIV foi acrescentada
@@ -103,9 +105,13 @@ div {
     Não foi passado no curso
 
     #####################################################    */
+article {
+    border: 1px solid blue;
+    background-color: yellow;
+}
 main {
     margin: auto;
-    min-width: 347px;
+    min-width: 339px;
     max-width: 1000px;
     padding: 20px;
     background-color: white;
@@ -114,6 +120,7 @@ main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
@@ -156,15 +163,16 @@ main img {
     width: 100%;
 }
 main img.pequena {
+    border: 1px solid blue;
     max-width: 350px;
     margin: auto;
     display: block;
 }
 div.video {
     background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;  
+    margin: 0px -21px 30px -21px;
     padding-bottom: 56%;
+    min-width: 339px;
     position: relative;
 }
 div.video > iframe {
@@ -204,7 +212,7 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-    min-width: 427px; /*Não estava no curso*/}
+    min-width: 441px; /*Não estava no curso*/}
 footer a {
     color: white;
     font-weight: bolder;
