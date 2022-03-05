@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*Google Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap'); 
+/*Fonte Local*/
+@font-face {} 
+/*Variáveis*/
+:root {
+    --fonte-titulo:'Passion One', 'cursive';
+    --fonte-padrao: 'Sriracha', 'cursive';
+} 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 3.5em;
+    font-weight: normal;
+}
+header > h1 > span.drop {
+    font-size: 150%;
+}
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header > p > a:hover {
+    text-decoration: underline;
+    color: rgb(27, 136, 238);
+}
