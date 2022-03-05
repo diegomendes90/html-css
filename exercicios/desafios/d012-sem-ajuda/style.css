@@ -1,9 +1,5 @@
 @charset "UTF-8";
-/*Google Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap'); 
-/*Fonte Local*/
-@font-face {} 
-/*Variáveis*/
 :root {
     --fonte-cursiva: Arial, Helvetica, sans-serif;
     --fonte-titulo:'Passion One', 'cursive';
@@ -52,8 +48,6 @@ main {
     position: relative;
 
     transform: translate(0%, 6.3%);
-}
-section {
 }
 section.fundo-branco {
     background-color: white;
